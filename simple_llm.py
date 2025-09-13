@@ -24,4 +24,3 @@ fromatted_prompt = prompt.format(topic = topic)
 blog_title = llm.invoke(fromatted_prompt)
 print("Generated Blog Title: ",blog_title)
 
-
